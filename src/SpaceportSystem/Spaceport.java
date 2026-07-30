@@ -104,7 +104,8 @@ public void saveToFile(String filename) {
      System.out.println(" System data saved to " + filename);
      
  } catch (IOException e) {
-     System.err.println("❌ Error saving system data: " + e.getMessage());
+     System.err.println("
+					 Error saving system data: " + e.getMessage());
  }
 }
 
